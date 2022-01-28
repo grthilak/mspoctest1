@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.3 (Python 3.8.10 on linux)" generated="20220124 06:33:33.702" rpa="false" schemaversion="2">
+<suite id="s1" name="Helloworld" source="/root/helloworld.robot">
+<test id="s1-t1" name="TC-001: Printing Hello World">
+<kw name="PrintHello">
+<kw name="Log" library="BuiltIn">
+<arg>"Hello World"</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20220124 06:33:33.722" level="INFO">"Hello World"</msg>
+<status status="PASS" starttime="20220124 06:33:33.721" endtime="20220124 06:33:33.722"/>
+</kw>
+<status status="PASS" starttime="20220124 06:33:33.721" endtime="20220124 06:33:33.722"/>
+</kw>
+<status status="PASS" starttime="20220124 06:33:33.720" endtime="20220124 06:33:33.722"/>
+</test>
+<status status="PASS" starttime="20220124 06:33:33.702" endtime="20220124 06:33:33.723"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Helloworld">Helloworld</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
