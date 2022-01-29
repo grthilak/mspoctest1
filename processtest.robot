@@ -15,3 +15,8 @@ Test3
     ${result} =    Run Process    ansible-playbook    getarp.yml
     Should Be Equal    ${result.rc}    ${0}
     log    stdout: ${result.stdout}
+
+Test4
+    ${result} =    Run Process    python3    -c    git_push.py
+    Should Be Equal    ${result.rc}    ${0}
+    log    stdout: ${result.stdout}
