@@ -12,4 +12,4 @@ execute_cmd("ls -l")
 
 execute_cmd("git add .")
 execute_cmd('git commit -am "updated reports"')
-execute_cmd("git push https://grthilak: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@github.com/grthilak/mspoctest1.git")
+execute_cmd("git push https://grthilak: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@github.com/grthilak/mspoctest1.git")
