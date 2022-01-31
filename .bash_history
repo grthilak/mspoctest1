@@ -25,3 +25,21 @@ git status
 git push https://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@github.com/grthilak/"https://github.com/grthilak/mspoctest1.git"
 git status
 git push -u origin master
+ls
+cat processtest.robot
+ansible-playbook getarp.yml
+nano 
+ls
+cat ansible.cfg
+ls
+cd ..
+ls
+cp /root/myhosts .
+ls
+cp /root/ansible.cfg .
+cp /root/getarp.yml .
+ls
+dasfasd sdf 
+asdfasdf 
+asdf asdfsadf asdf sdafsfsdfsdafsdgdggdsfsdfsdf
+sdfsadf 
